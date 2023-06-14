@@ -16,5 +16,13 @@ F1-Score of my reproduction:
 | DCC No Transfer (ours) | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
 | DCC Direct Transfer(ours) | 11.52 | 34.44 | 58.70 |   13.00   | 70.44 | 40.91 | 20.47 | 86.22 | 41.96 |
 
+Metris on overall testset
+| Model     | BLEU-1 | CIDEr  | METEOR | SPICE  | ROUGE-L |
+|-----------|--------|--------|--------|--------|---------|
+| DCC (paper)   | 64.4   | 59.1   | 21.00  | 13.4   | -       |
+| DCC (ours)    | 62.2   | 52.5   | * | 12.3   | 45.0    |
+
+*:cocoevalcap crashed when test meteor
+
 Codes will be released soon...
 
