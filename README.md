@@ -9,7 +9,7 @@ This is also the third project of NNDL course, which requires us to implement a 
 
 We just implement direct transfer since it is better than delta transfer according to the origin paper.
 
-Reproduction F1-Score
+F1-Score of reproduction:
 | Model | bottle | bus | couch | microwave | pizza | racket | suitcase | zebra | Avg. |
 | :---: | :----: | :-: | :---: | :-------: | :---: | :----: | :------: | :---: | :--: |
 | DCC (paper) | 4.63 | 29.79 | 45.87 |   28.09   | 64.59 | 52.24 | 13.16 | 79.88 | 39.78 |
