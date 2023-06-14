@@ -9,5 +9,9 @@ This is also the third project of NNDL course, which requires us to implement a 
 
 We just implement direct transfer since it is better than delta transfer according to the origin paper.
 
-
+| Metric | Model | bottle | bus | couch | microwave | pizza | racket | suitcase | zebra | Avg. |
+| :----: | :---: | :----: | :-: | :---: | :-------: | :---: | :----: | :------: | :---: | :--: |
+|   F1   | DCC (paper) | 4.63 | 29.79 | 45.87 |   28.09   | 64.59 | 52.24 | 13.16 | 79.88 | 39.78 |
+|   F1   | DCC No Transfer (ours) | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
+|   F1   | DCC Direct Transfer(ours) | 11.52 | 34.44 | 58.70 |   13.00   | 70.44 | 40.91 | 20.47 | 86.22 | 41.96 |
 
