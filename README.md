@@ -7,9 +7,9 @@ But it is implemented in caffe.
 
 This is also the third project of NNDL course, which requires us to implement a novel image captioner on MSCOCO.
 
-We just implement direct transfer since it is better than delta transfer according to the origin paper.
+I just implement direct transfer since it is better than delta transfer according to the origin paper.
 
-F1-Score of reproduction:
+F1-Score of my reproduction:
 | Model | bottle | bus | couch | microwave | pizza | racket | suitcase | zebra | Avg. |
 | :---: | :----: | :-: | :---: | :-------: | :---: | :----: | :------: | :---: | :--: |
 | DCC (paper) | 4.63 | 29.79 | 45.87 |   28.09   | 64.59 | 52.24 | 13.16 | 79.88 | 39.78 |
