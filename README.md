@@ -20,9 +20,11 @@ Metris on overall testset
 | Model     | BLEU-1 | CIDEr  | METEOR | SPICE  | ROUGE-L |
 |-----------|--------|--------|--------|--------|---------|
 | DCC (paper)   | 64.4   | 59.1   | 21.00  | 13.4   | -       |
-| DCC (ours)    | 62.2   | 52.5   | * | 12.3   | 45.0    |
+| DCC (ours)    | 62.2   | 52.5**   | * | 12.3   | 45.0    |
 
-*:cocoevalcap crashed when test meteor
+*: Cocoevalcap crashed when test meteor (I don't know why)
+
+**: CIDEr score may have some problem, since I found that doubling the dataset with the same ground truth and generated captions result in a higher CIDEr.
 
 Codes will be released soon...
 
